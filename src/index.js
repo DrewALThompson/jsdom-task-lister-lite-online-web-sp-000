@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     let ulAll = document.querySelector('ul');
     if (input.value != '') {
-      liItem.innerText = input;
+      liItem.innerText = input.value;
       ulAll.append(liItem);
       input = '';
     };
