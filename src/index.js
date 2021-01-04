@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let liItem = document.createElement('li')
     liItem.innerText = input
     
-    
+    let ulAll = document.querySelector('ul')
+    ulAll.append(liItem);
+    input = ''
   })
 });
