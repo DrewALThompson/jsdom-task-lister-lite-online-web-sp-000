@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = (document.getElementById('new-task-description')).value;
     
     let liItem = document.createElement('li');
-    liItem.innerText = input;
     
     let ulAll = document.querySelector('ul');
-    ulAll.append(liItem);
-    input = '';
+    if (input != '')
+      liItem.innerText = input;
+      ulAll.append(liItem);
+      input = '';
+    
   })
 });
