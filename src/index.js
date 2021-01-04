@@ -9,10 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let liItem = document.createElement('li');
     
     let ulAll = document.querySelector('ul');
-    when ()
+    if (input != '') {
       liItem.innerText = input;
       ulAll.append(liItem);
       input = '';
+    };
     
   })
 });
