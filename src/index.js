@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     let input = (document.getElementById('new-task-description').)value
     
-    let liItem = document.createElement('li') 
+    let liItem = (document.createElement('li').innerText = input)
+    
+    
   })
 });
