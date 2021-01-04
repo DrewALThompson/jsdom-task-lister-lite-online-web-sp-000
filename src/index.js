@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       liItem.innerText = input;
       ulAll.append(liItem);
       input.value = '';
-      return input;
     };
     
   })
