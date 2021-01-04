@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     
-    let input = document. 
+    let input = document.getElementById('') 
   })
 });
