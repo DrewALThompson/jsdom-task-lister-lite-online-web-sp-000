@@ -5,15 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     
     let input = document.getElementById('new-task-description');
-    let inputValue = input.value
+    let inputValue = input.value;
     
     let liItem = document.createElement('li');
     
     let ulAll = document.querySelector('ul');
-    if (input != '') {
+    if (input.value != '') {
       liItem.innerText = input;
       ulAll.append(liItem);
-      input.value = '';
+      input = '';
     };
     
   })
