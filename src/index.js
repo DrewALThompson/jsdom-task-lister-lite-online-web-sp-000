@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     
-    let input = (document.getElementById('new-task-description')).value
+    let input = (document.getElementById('new-task-description')).value;
     
-    let liItem = document.createElement('li')
-    liItem.innerText = input
+    let liItem = document.createElement('li');
+    liItem.innerText = input;
     
-    let ulAll = document.querySelector('ul')
+    let ulAll = document.querySelector('ul');
     ulAll.append(liItem);
-    input = ''
+    input = '';
   })
 });
